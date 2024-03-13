@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Painter's Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="slider.css">
+  </head>
+  <body>
+    <!------ Navbar-- -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar-brand">A Painter's Web</a>
+      <div class="nav-links">
+
+        <a href="works.html" class="nav-link">Works</a>
+        <a href="about.html" class="nav-link">About</a>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+        <div class="dropdown-content">
+          <a href="works.html" class="nav-link">Works</a>
+          <a href="about.html" class="nav-link">About</a>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- Hero-section -->
+    <section class="welcome-section">
+      <h1>Welcome to A Painter's Web!</h1>
+      <h2>Pictures and Paintings</h2>
+      <h4>Original • Affordable • Art</h4>
+    </section>
+
+  
+
+    <!-- Popular Works Section -->
+    <section class="popular-works-section">
+      <h2>Currently Popular Works</h2>
+      <div class="popular-works-grid">
+        <div class="popular-work">
+          <img src="./assets/hand-drawn.avif" alt="Painting 1" />
+          <h4>Field of Flowers</h4>
+        </div>
+        <div class="popular-work">
+          <img
+            src="./assets/landscape.avif"
+            alt="Painting 2"
+          />
+          <h4>Floral watercolor landscape</h4>
+        </div>
+        <div class="popular-work">
+          <img
+            src="./assets/graffiti.jpg"
+            alt="Painting 3"
+          />
+          <h4>Flowers behind humidity glass</h4>
+        </div>
+      </div>
+      <a href="works.html" class="view-all-works">View all works</a>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section">
+      <h2 class="about-us">About Us</h2>
+    </section>
+
+    <div class="social-icons">
+      <ul class="list-inline">
+          <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-instagram"></i></i></a></li>
+          <li><a href=""><i class="fa-brands fa-behance"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+      </ul>
+  </div>
+
+    <script src="script.js"></script>
+    <script src="workItem.js"></script>
+  </body>
+</html>

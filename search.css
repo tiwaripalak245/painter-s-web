@@ -1,0 +1,37 @@
+/* Search Bar Styles */
+.top-search {
+    background-color: transparent; /* Set your desired background color */
+    padding: 8px 0;
+  }
+  
+  .container {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group-addon {
+    background-color: #fda9c0; /* Set your desired addon background color */
+    color: #fff; /* Set your desired addon text color */
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+  }
+  
+  .form-control {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #e090a3; /* Set your desired input border color */
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #e090a3; /* Set your desired input border color when focused */
+  }
+  
